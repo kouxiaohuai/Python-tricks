@@ -7,9 +7,11 @@ activate python venv
 venv_name>Scripts\activate.bat
 ```
 install package
-generate a requirements file and then install from it in another environment
 ```
 (venv_name) venv_name>pip install package_name
+```
+generate a requirements file and then install from it in another environment
+```
 (venv_name) venv_name>pip freeze > requirements.txt
 ```
 *requirements.txt*
