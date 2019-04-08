@@ -18,7 +18,7 @@ generate a requirements file and then install from it in another environment
 *```
 *Django==2.2
 pytz==2018.9
-sqlparse==0.3.0*
+sqlparse==0.3.0
 ```*
 ```
 pip install -r requirements.txt
