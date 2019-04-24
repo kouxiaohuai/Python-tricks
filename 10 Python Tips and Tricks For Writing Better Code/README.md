@@ -62,5 +62,81 @@ universes = ['Marvel', 'DC', 'Marvel', 'DC']
 
 for name, hero, universe in zip(names, heroes, universes):
     print(f'{name} is actually {hero} from {universe}')
+
+for value in zip(names, heroes, universes):
+    print(value)
 ```
 7. 
+```
+a, b = (1, 2)
+
+print(a)
+print(b)
+
+```
+```
+a, _ = (1, 2)
+
+print(a)
+
+```
+```
+a, b, *c = (1, 2, 3, 4, 5)
+
+print(a)
+print(b)
+print(c)
+
+```
+```
+a, b, *_ = (1, 2, 3, 4, 5)
+
+print(a)
+print(b)
+
+```
+```
+a, b, *c, d = (1, 2, 3, 4, 5)
+
+print(a)
+print(b)
+print(c)
+print(d)
+
+```
+8. 
+```
+class Person():
+    pass
+
+
+person = Person()
+
+first_key = 'first'
+first_val = 'Corey'
+
+setattr(person, 'first', 'Corey')
+
+setattr(person, first_key, first_val)
+
+print(person.first)
+print(getattr(person, 'first'))
+print(getattr(person, first_key))
+
+```
+```
+class Person():
+    pass
+
+
+person = Person()
+
+person_info = {'first': 'Corey', 'last': 'Schafer'}
+
+for key, value in person_info.items():
+    setattr(person, key, value)
+
+print(person.first)
+print(person.last)
+
+```
