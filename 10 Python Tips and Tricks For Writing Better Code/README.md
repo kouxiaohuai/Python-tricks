@@ -24,8 +24,8 @@ print(total)
 print(f'{total:,}')
 
 3. 
-with open('test.txt', 'r') as f:
-    for line in f:
+with open('test.txt', 'r') as f:  
+    for line in f:  
         print(line)
 
 4. 
@@ -36,7 +36,7 @@ for name in names:
     print(index, name)
     index += 1
 ```
-for index, name in enumerate(names):
+for index, name in enumerate(names):  
     print(index, name)
 
 5. 
@@ -47,7 +47,7 @@ for index, name in enumerate(names):
     hero = heroes[index]
     print(f'{name} is actually {hero}')
 ```
-for name, hero in zip(names, heroes):
+for name, hero in zip(names, heroes):  
     print(f'{name} is actually {hero}')
 
 6. 
