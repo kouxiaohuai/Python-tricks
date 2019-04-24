@@ -10,6 +10,7 @@ else:
 x = 1 if condition else 0
 
 print(x)
+
 ```
 2. 
 ```
@@ -23,12 +24,14 @@ total = num1 + num2
 
 print(total)
 print(f'{total:,}')
+
 ```
 3. 
 ```
 with open('test.txt', 'r') as f:
     for line in f:
         print(line)
+
 ```
 4.
 ```
@@ -41,6 +44,7 @@ for name in names:
 
 for index, name in enumerate(names):
     print(index, name)
+
 ```
 5. 
 ```
@@ -53,6 +57,7 @@ for index, name in enumerate(names):
 
 for name, hero in zip(names, heroes):
     print(f'{name} is actually {hero}')
+
 ```
 6. 
 ```
@@ -65,6 +70,7 @@ for name, hero, universe in zip(names, heroes, universes):
 
 for value in zip(names, heroes, universes):
     print(value)
+
 ```
 7. 
 ```
@@ -106,7 +112,7 @@ print(d)
 ```
 8. 
 ```
-class Person():
+class Person:
     pass
 
 
@@ -125,7 +131,7 @@ print(getattr(person, first_key))
 
 ```
 ```
-class Person():
+class Person:
     pass
 
 
