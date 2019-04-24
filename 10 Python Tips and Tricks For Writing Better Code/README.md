@@ -8,4 +8,4 @@ if condition:
 else:
     x = 0
 ```
-print(x)
+2. print(x)
