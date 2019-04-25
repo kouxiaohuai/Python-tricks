@@ -13,7 +13,7 @@ print(x)
 
 ```
 2. 
-```
+```python
 num1 = 10000000000
 num2 = 100000000
 
@@ -27,14 +27,14 @@ print(f'{total:,}')
 
 ```
 3. 
-```
+```python
 with open('test.txt', 'r') as f:
     for line in f:
         print(line)
 
 ```
 4.
-```
+```python
 names = ['Corey', 'Chris', 'Dave', 'Travis']
 
 index = 0
@@ -47,7 +47,7 @@ for index, name in enumerate(names):
 
 ```
 5. 
-```
+```python
 names = ['Peter Parker', 'Clark Kent', 'Wade Wilson', 'Bruce Wayne']
 heroes = ['Spiderman', 'Superman', 'Deadpool', 'Batman']
 
@@ -60,7 +60,7 @@ for name, hero in zip(names, heroes):
 
 ```
 6. 
-```
+```python
 names = ['Peter Parker', 'Clark Kent', 'Wade Wilson', 'Bruce Wayne']
 heroes = ['Spiderman', 'Superman', 'Deadpool', 'Batman']
 universes = ['Marvel', 'DC', 'Marvel', 'DC']
@@ -73,20 +73,20 @@ for value in zip(names, heroes, universes):
 
 ```
 7. 
-```
+```python
 a, b = (1, 2)
 
 print(a)
 print(b)
 
 ```
-```
+```python
 a, _ = (1, 2)
 
 print(a)
 
 ```
-```
+```python
 a, b, *c = (1, 2, 3, 4, 5)
 
 print(a)
@@ -94,14 +94,14 @@ print(b)
 print(c)
 
 ```
-```
+```python
 a, b, *_ = (1, 2, 3, 4, 5)
 
 print(a)
 print(b)
 
 ```
-```
+```python
 a, b, *c, d = (1, 2, 3, 4, 5)
 
 print(a)
@@ -111,7 +111,7 @@ print(d)
 
 ```
 8. 
-```
+```python
 class Person:
     pass
 
@@ -130,7 +130,7 @@ print(getattr(person, 'first'))
 print(getattr(person, first_key))
 
 ```
-```
+```python
 class Person:
     pass
 
