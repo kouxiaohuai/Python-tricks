@@ -1,5 +1,5 @@
 1.
-```
+```python
 condition = True
 
 if condition:
