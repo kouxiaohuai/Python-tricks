@@ -15,9 +15,11 @@ print(plt.style.available)
 plt.style.use('ggplot')
 
 x = np.arange(0, 10, 0.1)
-y = np.sin(x)
+y_sin = np.sin(x)
+y_cos = np.cos(x)
 
-plt.plot(x, y, label='sin')
+plt.plot(x, y_sin, label='sin(x)')
+plt.plot(x, y_cos, label='cos(x)')
 plt.xticks(np.linspace(0, 10, 11, endpoint=True))
 plt.yticks(np.linspace(-1, 1, 11, endpoint=True))
 plt.xlim([-2, 12])
