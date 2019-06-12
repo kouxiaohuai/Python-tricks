@@ -18,6 +18,8 @@ x = np.arange(0, 10, 0.1)
 y = np.sin(x)
 
 plt.plot(x, y, label='sin')
+plt.xticks(np.linspace(0, 10, 11, endpoint=True))
+plt.yticks(np.linspace(-1, 1, 11, endpoint=True))
 plt.xlim([-2, 12])
 plt.ylim([-1.2, 1.2])
 plt.xlabel('x')
